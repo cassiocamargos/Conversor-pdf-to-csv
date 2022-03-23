@@ -3,7 +3,7 @@ import pdftotext
 import re
 import csv
 
-dir = sorted(Path('/mnt/c/Users/AiO-04/documents/Cassio/Conversor/pdf/Bradesco/').glob('*.PDF')) #/testePDF
+dir = sorted(Path('/mnt/c/Users/AiO-04/documents/Cassio/Conversor/pdf/Bradesco/').glob('*.pdf')) #/testePDF
 
 for file in dir:    
   print('\n\n')
